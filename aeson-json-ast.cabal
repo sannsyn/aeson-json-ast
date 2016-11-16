@@ -1,7 +1,7 @@
 name:
   aeson-json-ast
 version:
-  0.1
+  0.1.1
 synopsis:
   Integration layer for "json-ast" and "aeson"
 description:
@@ -42,5 +42,5 @@ library
     Data.Aeson.JSONAST
   build-depends:
     json-ast >= 0.2 && < 0.4,
-    aeson >= 0.8 && < 0.12,
+    aeson >= 0.8 && < 2,
     base >= 4.6 && < 5
